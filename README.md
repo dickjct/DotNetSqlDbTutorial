@@ -3,7 +3,7 @@ For me to get this to build successfully after download from the website, I foll
 
 I included the first two as I don't know if one, some combination of them, or all of these fixes caused it to work, but either way following these I was able to successfully build the program.
 
-Retried it on another account; you only need to do the last step of Manage NuGet Packages > Update Microsoft.Net.Compilers and that should allow you to launch the app!
+Retried it on another account; you only need to do the last step of Manage NuGet Packages > Update Microsoft.Net.Compilers and that should allow you to launch the app! Also cloning this repo seems to make it crash out in horrible ways so maybe don't do that.
 
 ---
 topic: ASP.NET and SQL Database sample for Azure App Service
