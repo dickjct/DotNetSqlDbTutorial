@@ -1,6 +1,8 @@
 Note; this may not run on first use.
 For me to get this to build successfully after download from the website, I followed advice here https://docs.microsoft.com/en-us/nuget/consume-packages/package-restore-troubleshooting and went to Tools > NuGet Package Manager > Package Manager Settings menu command, setting both options under Package Restore, and selecting OK. This didn't work for me, but I tried the second (command prompt, running "dotnet restore" it still didn't work. Failing these I Right Clicked the Solution > Manage NuGet Packages and scrolled down until I found the file that seemed to be causing issue in the error - "Microsoft.Net.Compilers", and updated it. This led to another error with obj\xx\yy.dll (can't remember the exact text), but that was resolved through restarting visual studio.
 
+I included the first two as I don't know if one, some combination of them, or all of these fixes caused it to work, but either way following these I was able to successfully build the program.
+
 ---
 topic: ASP.NET and SQL Database sample for Azure App Service
 languages:
